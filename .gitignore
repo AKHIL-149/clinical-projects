@@ -1,0 +1,69 @@
+# Data files
+*.sas7bdat
+*.xpt
+*.csv
+data/**/*.csv
+*/data/*.csv
+
+# SAS files
+*.log
+*.lst
+*.sas7bcat
+
+# Output files
+*.pdf
+*.rtf
+*.docx
+output/
+*/output/
+
+# R files
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+*.Rproj
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv
+*.egg-info/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temp files
+*.tmp
+*.bak
+*.cache
+
+# Sensitive
+.env
+*.key
+credentials/
+secrets/
