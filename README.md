@@ -26,15 +26,26 @@ This repository contains projects focused on:
 
 ---
 
+## Projects
+
+### SDTM Conversion Pipeline
+Converting raw clinical trial data to CDISC SDTM format for regulatory submissions. Demonstrates expertise in SAS programming, SDTM standards implementation, and pharmaceutical data quality processes.
+
+[View Project →](sdtm-conversion-pipeline/)
+
 ## Repository Structure
 
 ```
 clinical-projects/
 ├── README.md
-└── .gitignore
+├── .gitignore
+└── sdtm-conversion-pipeline/
+    ├── data/
+    ├── programs/
+    ├── specs/
+    ├── validation/
+    └── metadata/
 ```
-
-Projects will be added as individual folders at the root level.
 
 ---
 
